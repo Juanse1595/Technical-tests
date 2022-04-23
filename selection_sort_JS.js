@@ -11,7 +11,7 @@ const selectionSort = (array) => {
       }
     }
     // switch
-    array[idx], array[min_idx] = array[min_idx], array[idx]
+    [array[idx], array[min_idx]] = [array[min_idx], array[idx]]
   }
   console.log(array)
 }
