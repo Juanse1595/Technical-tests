@@ -11,6 +11,7 @@ def selection_sort(unsorted_array):
   and the sorted_array
   '''
   array_length = len(unsorted_array)
+  print(unsorted_array)
   for idx in range(array_length):
     idx_min = idx
     for idx_2 in range(idx + 1, array_length):
