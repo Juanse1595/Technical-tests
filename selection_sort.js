@@ -1,2 +1,0 @@
-/* Make a function that receives an array as a parameter and sorts it
-This example is using Selection sort */

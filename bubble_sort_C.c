@@ -1,5 +1,6 @@
 /* Make a function that receives an array as a parameter and sorts it
 This example is using Bubble sort */
+#include <stdio.h>
 
 int *bubble_sort(int *array, int n){
   int idx, idx_2, aux;
@@ -17,7 +18,7 @@ int *bubble_sort(int *array, int n){
 
 int main(void) {
   int i;
-  int *array = {4, 5, -9, 2, 4, -1};
+  int array[] = {4, 5, -9, 2, 4, -1, 100, -5, 0, 0, 0, 56};
   int n = sizeof(array) / sizeof(array[0]);
   bubble_sort(array, n);
   printf("{");
